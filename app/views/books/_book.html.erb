@@ -3,7 +3,7 @@
   	<%= link_to book_path(book) do %>
     <%= image_tag book.image.url(:original), class: "img-responsive" %>
     <% end %>
-    <%= book.image.ur(:original) %>
+   
     <div class="caption">
       <p><strong><%= link_to book.name, book_path(book) %></strong></p>
       <p>$<%= book.price.to_f / 100 %> </p>
