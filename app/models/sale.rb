@@ -1,7 +1,6 @@
 class Sale < ActiveRecord::Base
 	before_create :populate_guid
-	belongs_to :books
-	
+	belongs_to :book
 
 	private
 
